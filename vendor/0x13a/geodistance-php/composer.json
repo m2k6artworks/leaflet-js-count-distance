@@ -1,0 +1,34 @@
+{
+    "name": "0x13a/geodistance-php",
+    "description": "Calculate geodistance between two points, latitude and longitude",
+    "keywords": ["geodistance", "gps", "distance", "harvesine"],
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "diegomariani",
+            "email": "diego.mariani@mail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Geodistance\\": "src"
+        }
+    },
+    "autoload-dev": {
+    	"psr-4": {
+	    "GeodistanceTest\\": "tests"
+	}
+    },
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "phpstan/phpstan": "^0.10.5"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}

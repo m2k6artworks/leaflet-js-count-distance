@@ -1,0 +1,5 @@
+{
+    "require": {
+        "0x13a/geodistance-php": "^1.0"
+    }
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "name": "0x13a/geodistance-php",
+        "version": "1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/0x13a/geodistance-php.git",
+            "reference": "e3199bfd7ffb692a747b82cfda7506ecac6adfa9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/0x13a/geodistance-php/zipball/e3199bfd7ffb692a747b82cfda7506ecac6adfa9",
+            "reference": "e3199bfd7ffb692a747b82cfda7506ecac6adfa9",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "phpstan/phpstan": "^0.10.5",
+            "phpunit/phpunit": "~4.0"
+        },
+        "time": "2018-10-28T15:06:32+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Geodistance\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "diegomariani",
+                "email": "diego.mariani@mail.com"
+            }
+        ],
+        "description": "Calculate geodistance between two points, latitude and longitude",
+        "keywords": [
+            "Geodistance",
+            "distance",
+            "gps",
+            "harvesine"
+        ]
+    }
+]

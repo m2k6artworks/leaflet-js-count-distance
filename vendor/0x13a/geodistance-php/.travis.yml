@@ -1,0 +1,13 @@
+language: php
+
+php:
+    - 7.2
+
+before_script:
+    - curl -s http://getcomposer.org/installer | php
+    - php composer.phar install --dev
+    - php composer.phar dump-autoload
+
+script:
+    - bin/phpstan analyse src tests -l 4
+    - bin/phpunit
